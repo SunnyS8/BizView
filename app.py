@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from analyzer import analyze_dataframe, detect_columns
-from llm import generate_insights
+from insights import generate_insights
 from report import render_report, render_excel_report
 from storage import load_usage, save_usage, is_user_paid
 
