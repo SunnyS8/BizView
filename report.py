@@ -181,7 +181,7 @@ def render_report(stats: dict, insights: list) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Salytic — Отчёт о продажах</title>
+  <title>BizView — Отчёт о продажах</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&family=Inter:wght@300;400;500&display=swap');
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -229,7 +229,7 @@ def render_report(stats: dict, insights: list) -> str:
 <body>
 <div class="container">
   <div class="header">
-    <div class="logo">Salytic</div>
+    <div class="logo">BizView</div>
     <div class="subtitle">AI-анализ продаж</div>
     <div class="meta">Отчёт сформирован: {now}{f" · Период: {date_range}" if date_range else ""}</div>
     {f'<div class="trend-badge">Тренд: {trend_text}</div>' if trend_pct != 0 else ""}
