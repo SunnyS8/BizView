@@ -113,4 +113,5 @@ streamlit run app.py
 
 ## 📞 Контакт
 
-Telegram: @flufer_20
+Telegram: @SashaShyman
+
