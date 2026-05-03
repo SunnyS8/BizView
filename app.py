@@ -301,11 +301,11 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div style="text-align:center; padding: 20px; color: #6666aa; font-size: 0.85rem;">
-        🚀 Powered by BizView
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown("""
+<div style="text-align:center; padding: 20px; color: #6666aa; font-size: 0.85rem;">
+    🚀 Powered by BizView
+</div>
+""", unsafe_allow_html=True)
 
 user_id = get_user_id()
 usage = get_user_usage(user_id)
